@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+[data-theme="light"]
+{
+  --bg-image: linear-gradient( rgba(0,0,0,0.1)), url("bgLight.png");
+  --bg-color: #000000;
+  --text-color:#000000;
+}
+
+[data-theme="dark"]
+{
+  --bg-image: linear-gradient( rgba(0,0,0,0.8)), url("bgDark.png");
+  --bg-color: #000000;
+  --text-color:#ffffff;
+  
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
+.hero-bg {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.1)), url("/hero.png");
+}
+
+.shimmer {
+	animation: shimmer 2s infinite linear;
+	background: linear-gradient(to right, #2c2c2c 4%, #333 25%, #2c2c2c 36%);
+	background-size: 1000px 100%;
+}
+
+@keyframes shimmer {
+	0% {
+		background-position: -1000px 0;
+	}
+	100% {
+		background-position: 1000px 0;
+	}
+}
+
+@layer base{
+  body {
+    background-image: var(--bg-image);
+
+    background-color: var(--bg-color);
+
+    color: var(--text-color);
+
+  }
+  li{
+    list-style: none;
+    padding: 23px !important; /* Forces the padding */
+  }
+  
+}
+
+
