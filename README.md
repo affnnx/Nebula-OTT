@@ -6,7 +6,7 @@ Home:
 ![Screenshot](screenshots/home.png)
 
 TV Shows:
-![Screenshot](screenshots/tvShow.png)
+![Screenshot](screenshots/tvShows.png)
 
 Movies:
 ![Screenshot](screenshots/movies.png)
@@ -15,7 +15,7 @@ swimlanes:
 ![Screenshot](screenshots/swimlanes.png)
 
 details page:
-![Screenshot](screenshots/details.png)
+![Screenshot](screenshots/detailsPage.png)
 
 trailer:
 ![Screenshot](screenshots/trailer.png)
@@ -24,7 +24,7 @@ player screen:
 ![Screenshot](screenshots/player.png)
 
 Login screen:
-![Screenshot](screenshots/login.png)
+![Screenshot](screenshots/loginScreen.png)
 
 Email validation:
 ![Screenshot](screenshots/emailValidation.png)
@@ -36,10 +36,10 @@ Person search:
 ![Screenshot](screenshots/searchPerson.png)
 
 Movies search:
-![Screenshot](screenshots/searchMovie.png)
+![Screenshot](screenshots/searchMovies.png)
 
 TV show search:
-![Screenshot](screenshots/searchtvShow.png)
+![Screenshot](screenshots/searchTVShows.png)
 
 Search history:
 ![Screenshot](screenshots/searchHistory.png)
@@ -51,7 +51,7 @@ Light Theme:
 ![Screenshot](screenshots/lightTheme.png)
 
 English UI :
-![Screenshot](screenshots/englishUI.png)
+![Screenshot](screenshots/EnglishUI.png)
 
 French UI:
 ![Screenshot](screenshots/frenchUI.png)
